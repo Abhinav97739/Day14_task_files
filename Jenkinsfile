@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         registry = 'docker.io'  
-        registryCredential = 'Docker_credentials' 
+        registryCredential = 'bbce4962-762d-448b-a24d-c641927f8a95' 
     }
     stages {
         stage('Checkout') {
